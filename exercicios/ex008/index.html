@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!--Trabalhando com html 5-->
+<html lang="pt-br"><!--Na lingua portuguesa-->
+<head><!--cabeça-->
+    <meta charset="UTF-8"><!--Caracter-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--100% da tela-->
+    <link rel="shortcut icon" href="img/not.png" type="image/x-icon"> <!--Icone superior-->
+    <title>Formatação</title> <!--Titulo-->
+    <style>
+
+        mark{
+            background-color: rgb(206, 99, 183);
+        }
+    </style>
+</head> <!--Fim -->
+<body> <!--corpo-->
+    <h1>Principios formatações</h1> <!--Titulos-->
+    <h2>Negrito /destaque</h2> 
+    <br> <!--quebra de linha-->
+
+    <p>Nessa frase temos um <b> termo em negrito </b> usando a tag &lt; b &gt;.</p> <!--Paragrafo com um estilo negrito não semântico que é o <b>-->
+
+    <p>Nesta frase, tenho um <strong> termo em destaque</strong> usando a tag &lt; STRONG &gt;.
+    </p><!--Já o strong é o mesmo estilo negrito mas tem uma melhor samântica-->
+
+    <h2>Italico / Enfase </h2> 
+    <br>
+
+    <p>Nesta frase, temos um <i>termo em italico</i> usando a tag  &lt; i &gt; (não semântica)</p> <!--mesma coisa com o italico o I não é semântico já a tag <em> tem semântica-->
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
+
+
+
+    <!--Formatações adicionais-->
+        <!--Não esquece q ctrl+ shift+ p da para adicionar uma tag-->
+
+    <h2>Texto Marcado</h2> <!--Pensa tipo um marca texto =)-->
+
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p> <!--Mark é a tag para marca o texto e da pra mudar a cor original por CSS-->
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p>
+
+    <h2>Texto grande e Pequeno</h2> 
+    
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p><!--Big está obsoleto mas small não ... big não tem significado já small sim-->
+
+    <h2>Texto Deletado</h2>
+    <p>Podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido, mas não considerado.</p> <!--Risco em cima da palavra-->
+    
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p> <!--Sublinhado-->
+
+    <p>Existem também o <u>sublinhado</u> com a tag U (não semântica)</p> <!--Sublinhado sem semântica-->
+
+    <h2>Texto sobreescrito</h2> 
+
+    <p>Para inserir coisas do tipo x<sup>20</sup> + 3</p>
+    <!--O texto "20" terá uma pequena elevação ao lado do X-->
+
+    <h2>Texto subscrito</h2>
+
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    <!--O texto "2" terá um declive em relação a letra "H"-->
+
+</body>
+</html>

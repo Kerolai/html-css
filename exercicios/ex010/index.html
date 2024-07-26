@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório público no GitHub</a>.</p>
+
+    <!--Neste primeiro link como podemos observar que no link, existe alguns parametros os quais representam que estou usando um link externo e para isso foi colocado para que este não seja sobreposta a minha pagina e sim criada uma nova aba de navegação-->
+
+    <p>Você também pode acessar meu <a href="https://www.youtube.com/@CursoemVideo">canal gratuito no youtube</a>.</p>
+    <!--Já neste, esse link irá ser sobreposto a minha pagina-->
+
+    <h1>Usando links internos</h1>
+
+    <p>Esta é a minha primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda pagina</a>.</p>  <!--target="_self" Abre a página destino na página/aba corrente. e o rel="next" está indicando para o navegador que irei acessar a segunda pagina-->
+
+    <!--Só o unico problema que diferente do target="_blank" que abre uma nova aba ... o outro sobrepoe ou seja teria que fazer um link para voltar.''-->
+
+    <p>Você também pode acessar a nossa <a href="/noticias/pag003.html" target="_self" rel="next" >página de notícias</a></p>
+
+    <h1>Links para download</h1>
+
+    <ul>
+
+        <li >
+            <a href="/livro/10 - Ligações em toda parte.pdf" download="1010 - Ligações em toda parte.pdf" type="application/pdf">Baixar livro em PDF</a>
+        </li>
+
+        <li>
+            <a href="/livro/meulivro.zip" download="meulivro.zip" type="application/zip" > Baixar o livro em Zip</a>
+        </li>
+
+    </ul>
+</body>
+</html>
